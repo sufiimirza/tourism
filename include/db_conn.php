@@ -1,11 +1,11 @@
 <?php
-$host     = "localhost"; // Host name 
-$username = "root"; // Mysql username 
-$password = ""; // Mysql password 
-$db_name  = "torism"; // Database name 
+$host     = "aws-simplified.crm86fdmpzmz.us-east-2.rds.amazonaws.com"; // Host name 
+$username = "admin"; // Mysql username 
+$password = "Menengahatas99!"; // Mysql password 
+$db_name  = "tourism"; // Database name 
 
 // Connect to server and select databse.
-$con = mysqli_connect("localhost","root","","tourism");
+$con = mysqli_connect("aws-simplified.crm86fdmpzmz.us-east-2.rds.amazonaws.com","admin","Menengahatas99!","tourism");
 
 // Check connection
 if (!$con){
