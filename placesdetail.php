@@ -527,7 +527,7 @@
                                             <div class="br-theme-fontawesome-stars-o">
                                                 <div class="br-widget">
                                                     <?php 
-                                                    $star=1;
+                                                    $star=0;
                                                     while ($star != $rating) {
                                                         ?>
                                                     <a href="javascript:;" class="br-selected"></a>
