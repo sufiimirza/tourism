@@ -267,7 +267,7 @@
                                     <li id="grandtour_tour_posts-11" class="widget Grandtour_Tour_Posts">
                                         <!-- <h2 class="widgettitle">Suggested Hotel</h2> -->
                                         <div class="one gallery1 grid static filterable portfolio_type themeborder" style="background-image:url(data:image/jpg;charset=utf8;base64,<?php echo base64_encode($photo); ?>);">
-                                            <a class="tour_image" href="hoteldetail.php?hotel_id"></a>
+                                            <a class="tour_image" href="hoteldetail.php?hotel_id=<?php echo $id ?>"></a>
                                             <div class="portfolio_info_wrapper">
                                               
                                                 <h5><?php echo $hname ?></h5>
