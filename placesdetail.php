@@ -587,7 +587,7 @@
                     </p>
                     <p class="comment-form-email">
                         <label for="email">Email <span class="required">*</span></label>
-                        <input id="email" name="tourist_email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required' />
+                        <input id="email" name="tourist_email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required' />
                     </p>
                    
                     <p class="comment-form-rating">
