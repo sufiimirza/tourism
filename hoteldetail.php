@@ -549,7 +549,7 @@
                     <div class="tour_attribute_wrapper">
                         <div class="tour_attribute_rating">
                             <div class="br-theme-fontawesome-stars-o">
-                                <div class="br-widget">
+                                <!-- <div class="br-widget">
                                     <a href="javascript:;" class="br-selected"></a>
                                     <a href="javascript:;" class="br-selected"></a>
                                     <a href="javascript:;" class="br-selected"></a>
@@ -558,7 +558,7 @@
                                 </div>
                             </div>
                             <div class="tour_attribute_rating_count">
-                                4&nbsp; reviews </div>
+                                4&nbsp; reviews </div> -->
                         </div>
 
                         <div class="tour_attribute_days">
