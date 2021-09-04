@@ -308,7 +308,7 @@
                                     ?>
                                     
                                         <div class="one gallery1 grid static filterable portfolio_type themeborder" style="background-image:url(data:image/jpg;charset=utf8;base64,<?php echo base64_encode($photo); ?>);">
-                                            <a class="tour_image" href="hoteldetail.php?=<?php echo $id ?>"></a>
+                                            <a class="tour_image" href="hoteldetail.php?hotel_id=<?php echo $id ?>"></a>
                                             <div class="portfolio_info_wrapper">
                                                 <div class="tour_price ">
                                                     <?php echo $hrate ?> Stars</div>
@@ -650,7 +650,7 @@
             <div class="element grid classic3_cols">
             <div class="one_third gallery3 classic static filterable portfolio_type themeborder" data-id="post-171">
 
-                <a class="tour_image" href="placedetail.php?=<?php echo $pid ?>">
+                <a class="tour_image" href="placedetail.php?Iplace_ID=<?php echo $pid ?>">
                     <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($pphoto);  ?> " />  
                         <div class="tour_price">
                         RM<?php echo $pprice ?>                                              
