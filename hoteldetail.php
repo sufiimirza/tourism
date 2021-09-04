@@ -206,7 +206,7 @@
 
                                     
                                         <div class="one gallery1 grid static filterable portfolio_type themeborder" style="background-image:url(data:image/jpg;charset=utf8;base64,<?php echo base64_encode($rphoto); ?>);">
-                                            <a class="tour_image" href="restaurantdetail.php?=<?php echo $rid ?>"></a>
+                                            <a class="tour_image" href="restaurantdetail.php?restaurant_ID=<?php echo $rid ?>"></a>
                                             <div class="portfolio_info_wrapper">
                                                 
                                                 <h5><?php echo $rname ?></h5>
@@ -533,7 +533,7 @@
             <div class="element grid classic3_cols">
             <div class="one_third gallery3 classic static filterable portfolio_type themeborder" data-id="post-171">
 
-                <a class="tour_image" href="placedetail.php?=<?php echo $pid ?>">
+                <a class="tour_image" href="placesdetail.php?=Iplace_ID<?php echo $pid ?>">
                     <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($pphoto);  ?> " />  
                         <div class="tour_price">
                         <?php echo $pprice ?>;                                              
