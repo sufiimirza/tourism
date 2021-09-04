@@ -643,7 +643,7 @@
                 </a>
 
                 <div class="portfolio_info_wrapper">
-                    <a class="tour_link" href="#"><h4><?php echo $rname ?></h4></a>
+                    <a class="tour_link" href="restaurantdetail.php?=<?php echo $id ?>"><h4><?php echo $rname ?></h4></a>
                     <div class="tour_excerpt">
                         <p></p>
                     </div>
