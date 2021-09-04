@@ -536,7 +536,7 @@
                 <a class="tour_image" href="placesdetail.php?=Iplace_ID<?php echo $pid ?>">
                     <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($pphoto);  ?> " />  
                         <div class="tour_price">
-                        <?php echo $pprice ?>;                                              
+                        RM<?php echo $pprice ?>                                             
                         </div> 
                     
                 </a>
