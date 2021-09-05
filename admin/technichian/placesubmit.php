@@ -34,6 +34,8 @@
     $child=$_POST["child_price"];
     $close=$_POST["closing_hour"];
     $email=$_POST["place_email"];
+    $latitude=$_POST["placeLatitude"];
+    $longitude=$_POST["placeLongitude"];
 
         if(!empty($_FILES["place_photo"]["name"])) { 
             // Get file info 
@@ -47,8 +49,8 @@
                 $imgContent = addslashes(file_get_contents($img)); 
              
                 // Insert image content into database 
-                $q1 = "INSERT INTO places (Iplace_id,city_id,place_name,place_photo,opening_hour,place_details,ticket_price,child_price,closing_hour,place_email)
-                VALUES ('$id', '$city', '$name', '$imgContent', '$hour', '$detail', '$price','$child','$close','$email')";
+                $q1 = "INSERT INTO places (Iplace_id,city_id,place_name,place_photo,opening_hour,place_details,ticket_price,child_price,closing_hour,place_email,placeLatitude,placeLongitude)
+                VALUES ('$id', '$city', '$name', '$imgContent', '$hour', '$detail', '$price','$child','$close','$email','$latitude','$longitude')";
                 $q2 = mysqli_query($con, $q1); 
                  
                 if($q2){ 
