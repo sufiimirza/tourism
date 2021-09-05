@@ -226,7 +226,7 @@
                                         <ul class="posts blog withthumb ">
                                 <?php
                                 $sid=$_GET['state_name'];
-                                $que="select a.article_id,a.article_name,a.release_date from article a join state b on a.state_id=b.state_ID where b.state_name='$sid' ";
+                                $que="select a.article_id,a.article_name,a.release_date, a.article_link from article a join state b on a.state_id=b.state_ID where b.state_name='$sid' ";
                                 $result1 = mysqli_query($con, $que);
                                 $no    = 1;
 
@@ -236,6 +236,8 @@
                                     $uid   = $row['article_id'];
                                     $name = $row['article_name'];
                                     $date = $row['release_date'];
+                                    $photo = $row['article_link'];
+
                                     
                                     // $query1  = "select * from city ORDER BY city_name";
                                     // $result1 = mysqli_query($con, $query1);
@@ -246,7 +248,7 @@
                                         
                                             <li>
                                                 <div class="post_circle_thumb">
-                                                    <a href="#"><img class="alignleft frame post_thumb" src="upload/photo-1469920783271-4ee08a94d42d-150x150.jpg" alt="" /></a>
+                                                    <a href="#"><img class="alignleft frame post_thumb" src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['article_link']); ?> " alt="" /></a>
                                                 </div><a href="#"><?php echo $name ?></a>
                                                 <div class="post_attribute"><?php echo $date ?></div>
                                             </li>
