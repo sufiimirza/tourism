@@ -15,17 +15,17 @@ $pass_key     = stripslashes($pass_key);
 
 if($pass_key=="" &&  $user_id_auth==""){
    echo "<head><script>alert('Username and Password can be empty');</script></head></html>";
-               echo "<meta http-equiv='refresh' content='0; url=index.php'>";
+               echo "<meta http-equiv='refresh' content='0; url=login18.php'>";
   
 }
 else if($pass_key=="" ){
    echo "<head><script>alert('Password can be empty');</script></head></html>";
-               echo "<meta http-equiv='refresh' content='0; url=index.php'>";
+               echo "<meta http-equiv='refresh' content='0; url=login18.php'>";
   
 }
 else if($user_id_auth=="" ){
    echo "<head><script>alert('Username can be empty');</script></head></html>";
-               echo "<meta http-equiv='refresh' content='0; url=index.php'>";
+               echo "<meta http-equiv='refresh' content='0; url=login18.php'>";
   
 }
 
@@ -50,7 +50,7 @@ if ($count == 1) {
     if ($auth_l_x == 'author') {
         header("location: admin/author/");
     } else if ($auth_l_x == 'technichian') {
-        header("location: admin/technichian/index.php");
+        header("location: admin/technichian/");
     }
      // else if ($auth_l_x == 3) {
     //     header("location: ../dashboard/member/");        
