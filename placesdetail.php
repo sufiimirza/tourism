@@ -406,7 +406,7 @@
                                 <div class="single_tour_departure_title">Closing Hour</div>
                                 <div class="single_tour_departure_content">
                                     <div class="one_half ">
-                                       </span><?php echo $open ?> </div>
+                                       </span><?php echo $close ?> </div>
                                     
                                 </div>
                             </li>
