@@ -14,6 +14,8 @@
     $hotelno=$_POST["hotel_no"];
     $email=$_POST["hotel_email"];
     $rate=$_POST["hotel_rate"];
+    $latitude=$_POST["hotelLatitude"];
+    $longitude=$_POST["hotelLongitude"];
 
 
         if(!empty($_FILES["hotel_photo"]["name"])) { 
@@ -28,8 +30,8 @@
                 $imgContent = addslashes(file_get_contents($img)); 
              
                 // Insert image content into database 
-                $q1 = "INSERT INTO hotel (hotel_id,city_id,hotel_name,hotel_photo,hotel_detail,hotel_no,hotel_email,hotel_rate) 
-                VALUES ('$id', '$city', '$name', '$imgContent', '$detail','$hotelno','$email','$rate')";
+                $q1 = "INSERT INTO hotel (hotel_id,city_id,hotel_name,hotel_photo,hotel_detail,hotel_no,hotel_email,hotel_rate,hotelLatitude,hotelLongitude) 
+                VALUES ('$id', '$city', '$name', '$imgContent', '$detail','$hotelno','$email','$rate','$latitude','$longitude')";
                 $q2 = mysqli_query($con, $q1); 
                  
                 if($q2){ 
