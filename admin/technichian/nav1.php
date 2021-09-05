@@ -20,8 +20,8 @@
 				<li>
 					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-adjust"></i><span>Restaurant</span><span class="menu-arrow fa fa-angle-down"></span></a>
 					<ul class="sub-menu js__content">
-						<li><a href="/tourism/admin/technichian/restaurantadd.php">Add Restaurant</a></li>
-						<li><a href="/tourism/admin/technichian/restaurantdisplay.php">View Restaurant</a></li>
+						<li><a href="restaurantadd.php">Add Restaurant</a></li>
+						<li><a href="restaurantdisplay.php">View Restaurant</a></li>
 					</ul>
 					<!-- /.sub-menu js__content -->
 				</li>
