@@ -50,7 +50,7 @@ if ($count == 1) {
     if ($auth_l_x == 'author') {
         header("location: admin/author/");
     } else if ($auth_l_x == 'technichian') {
-        header("location: admin/technichian/index.PHP");
+        header("location: admin/technichian/index.php");
     }
      // else if ($auth_l_x == 3) {
     //     header("location: ../dashboard/member/");        
