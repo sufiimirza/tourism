@@ -11,7 +11,9 @@
 				</li>
 				<li>
 					<a class="waves-effect parent-item js__control"><i class="menu-icon fa fa-flag"></i><span>City</span><span class="menu-arrow fa fa-angle-down"></span></a>
-					<ul class="sub-menu js__cocityadd.php">Add City</citydisplay.php">View City</a></li>
+					<ul class="sub-menu js__content">
+						<li><a href="cityadd.php">Add City</a></li>
+						<li><a href="citydisplay.php">View City</a></li>
 					</ul>
 					<!-- /.sub-menu js__content -->
 				</li>
