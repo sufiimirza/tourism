@@ -198,7 +198,7 @@ $query  = "select * from admin where username='$aname'";
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="closing_hour" class="col-sm-3 control-label">closing Hour</label>
+								<label for="closing_hour" class="col-sm-3 control-label">Closing Hour</label>
 								<div class="col-sm-9">
 									<input type="time" class="form-control" name="closing_hour" id="closing_hour" >
 								</div>
@@ -218,7 +218,19 @@ $query  = "select * from admin where username='$aname'";
 							<div class="form-group">
 								<label for="state_name" class="col-sm-3 control-label">Restaurant Detail</label>
 								<div class="col-sm-9">
-									<input type="text" class="form-control" name="rest_detail" id="rest_detail" placeholder="Name of State">
+									<input type="text" class="form-control" name="rest_detail" id="rest_detail" placeholder="Restaurant detail">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="res_latitude" class="col-sm-3 control-label">Restaurant Latitude</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" name="locationLatitude" id="locationLatitude" placeholder="Restaurant Latitude" pattern="[0-9]"> 
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="res_latitude" class="col-sm-3 control-label">Restaurant Longitude</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" name="locationLongitude" id="locationLongitude" placeholder="Restaurant Longitude" pattern="[0-9]"> 
 								</div>
 							</div>
 							<div class="form-group">
