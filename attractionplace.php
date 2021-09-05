@@ -249,7 +249,7 @@
                                             <li>
                                                 <div class="post_circle_thumb">
                                                     <a href="#"><img class="alignleft frame post_thumb" src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['article_link']); ?> " alt="" /></a>
-                                                </div><a href="#"><?php echo $name ?></a>
+                                                </div><a href="articledetail.php?article_id=<?php echo $uid ?>"><?php echo $name ?></a>
                                                 <div class="post_attribute"><?php echo $date ?></div>
                                             </li>
                                           
