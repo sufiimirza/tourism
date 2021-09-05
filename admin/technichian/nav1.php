@@ -11,9 +11,7 @@
 				</li>
 				<li>
 					<a class="waves-effect parent-item js__control"><i class="menu-icon fa fa-flag"></i><span>City</span><span class="menu-arrow fa fa-angle-down"></span></a>
-					<ul class="sub-menu js__content">
-						<li><a href="/tourism/admin/technichian/cityadd.php">Add City</a></li>
-						<li><a href="/tourism/admin/technichian/citydisplay.php">View City</a></li>
+					<ul class="sub-menu js__cocityadd.php">Add City</citydisplay.php">View City</a></li>
 					</ul>
 					<!-- /.sub-menu js__content -->
 				</li>
@@ -28,21 +26,21 @@
 				<li>
 					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-th-file-pdf-o"></i><span>Article</span><span class="menu-arrow fa fa-angle-down"></span></a>
 					<ul class="sub-menu js__content">
-						<li><a href="/tourism/admin/technichian/articleadd.php">Add Article</a></li>
-						<li><a href="/tourism/admin/technichian/articledisplay.php">View Article</a></li>
+						<li><a href="articleadd.php">Add Article</a></li>
+						<li><a href="articledisplay.php">View Article</a></li>
 					</ul>
 				</li>
 				<li>
 					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-map-marker"></i><span>Place</span><span class="menu-arrow fa fa-angle-down"></span></a>
 					<ul class="sub-menu js__content">
-						<li><a href="/tourism/admin/technichian/placeadd.php">Add Place</a></li>
-						<li><a href="/tourism/admin/technichian/placedisplay.php">View Place</a></li>
+						<li><a href="placeadd.php">Add Place</a></li>
+						<li><a href="placedisplay.php">View Place</a></li>
 					</ul>
 				</li>
 				<li>
 					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-map"></i><span>State</span><span class="menu-arrow fa fa-angle-down"></span></a>
 					 <ul class="sub-menu js__content">
-						<li><a href="/tourism/admin/technichian/stateadd.php">Add State</a></li>
+						<li><a href="stateadd.php">Add State</a></li>
 						
 					</ul>
 				</li>
