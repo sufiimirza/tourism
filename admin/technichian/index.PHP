@@ -74,7 +74,7 @@ $query  = "select * from admin where username='$aname'";
 				<div class="control-list">
 					<div class="control-item"><a href="profile.html"><i class="fa fa-user"></i> Profile</a></div>
 					<div class="control-item"><a href="#"><i class="fa fa-gear"></i> Settings</a></div>
-					<div class="control-item"><a href="#"><i class="fa fa-sign-out"></i> Log out</a></div>
+					<div class="control-item"><a href="logout.php"><i class="fa fa-sign-out"></i> Log out</a></div>
 				</div>
 				<!-- /.control-list -->
 			</div>
