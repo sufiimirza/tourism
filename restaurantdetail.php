@@ -270,7 +270,7 @@
                                         $currenttime = date(' H:i:s'); 
                                         // (new DateTime())-> setTimeStamp($timestamp);
 
-
+                                        var $status;
                                         if (($open < $currenttime) && ($currenttime < $close)) {
                                             $status ='Open';
                                         } else {
