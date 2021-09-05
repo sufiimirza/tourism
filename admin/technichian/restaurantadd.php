@@ -224,13 +224,13 @@ $query  = "select * from admin where username='$aname'";
 							<div class="form-group">
 								<label for="res_latitude" class="col-sm-3 control-label">Restaurant Latitude</label>
 								<div class="col-sm-9">
-									<input type="text" class="form-control" name="locationLatitude" id="locationLatitude" placeholder="Restaurant Latitude" pattern="[0-9]"> 
+									<input type="text" class="form-control" name="locationLatitude" id="locationLatitude" placeholder="Restaurant Latitude"> 
 								</div>
 							</div>
 							<div class="form-group">
 								<label for="res_latitude" class="col-sm-3 control-label">Restaurant Longitude</label>
 								<div class="col-sm-9">
-									<input type="text" class="form-control" name="locationLongitude" id="locationLongitude" placeholder="Restaurant Longitude" pattern="[0-9]"> 
+									<input type="text" class="form-control" name="locationLongitude" id="locationLongitude" placeholder="Restaurant Longitude"> 
 								</div>
 							</div>
 							<div class="form-group">
