@@ -226,6 +226,18 @@ $query  = "select * from admin where username='$aname'";
 								</div>
 							</div>
 							<div class="form-group">
+								<label for="state_name" class="col-sm-3 control-label">Hotel Latitude</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" name="hotelLatitude" id="hotelLatitude" placeholder="latitude">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="state_name" class="col-sm-3 control-label">Hotel Longitude</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" name="hotelLongitude" id="hotelLongitude" placeholder="longitude">
+								</div>
+							</div>
+							<div class="form-group">
 								<label for="state_name" class="col-sm-3 control-label">Hotel Photo</label>
 								<div class="col-sm-9">
 									<input type="file" class="form-control" name="hotel_photo" id="place_photo">
