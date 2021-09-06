@@ -56,7 +56,7 @@ if ($count == 1) {
     //     header("location: ../dashboard/member/");        
      
     else {
-        header("location: ../login/");
+        header("location: login18.php");
     }
       
 } else {
