@@ -60,7 +60,7 @@ if ($count == 1) {
     }
       
 } else {
-    include 'index.php';
+    include 'login18.php';
     echo "<html><head><script>alert('Username OR Password is Invalid');</script></head></html>";
 }
 }
