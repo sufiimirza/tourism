@@ -230,7 +230,7 @@ $query  = "select * from admin where username='$aname'";
 								<div class="col-sm-8">
 									<button type="submit" name="submit" class="btn btn-info btn-sm waves-effect waves-light">EDIT RESTAURANT</button>
 								</div>
-								<a href="resrtaurantdelete.php?del=<?php echo $row['restaurant_id']; ?>" class="btn" style="background: red; font-size: 20px;">DELETE</a>
+								
 						</form>
 					</div>
 					<!-- /.card-content -->
