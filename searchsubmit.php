@@ -24,6 +24,9 @@
             echo "<script>window.location.href='placesdetail.php?Iplace_ID=".$id ."'</script>";          
                 $sno++;
               }
+        } else {
+            echo "<head><script>alert('We did not found it :(');</script></head></html>";
+            echo "<script>window.location.href='index.php'</script>";
         }
                                   
 
