@@ -211,7 +211,7 @@ $query  = "select * from admin where username='$aname'";
 							<div class="form-group">
 								<label for="state_name" class="col-sm-3 control-label">Phone No.</label>
 								<div class="col-sm-9">
-									<input type="text" class="form-control" name="res_phoneNo" id="res_phoneNo" value="<?php echo $i?>">
+									<input type="text" class="form-control" name="res_phoneNo" id="res_phoneNo" pattern="[0-9]{2}-[0-9]{3}-[0-9]{4}" value="<?php echo $i?>">
 								</div>
 							</div>
 							<div class="form-group">
