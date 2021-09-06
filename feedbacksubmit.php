@@ -36,7 +36,7 @@
     if($result){ 
     
                     echo "<head><script>alert('Feedback Added Successfully');</script></head></html>";
-                    echo "<script>window.location.href='restaurantdetail.php?restaurant_id=".$id ."'</script>";     
+                    echo "<script>window.location.href='restaurantdetail.php?restaurant_ID=".$id ."'</script>";     
     }
 
   else{
