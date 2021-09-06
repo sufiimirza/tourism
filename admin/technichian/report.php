@@ -142,11 +142,12 @@ $query  = "select * from admin where username='$aname'";
 								<th>City Name</th> 
 								<th>Rating Average</th> 
 								<th>People Visited</th> 
+								<th>Total Feedback</th>
 							</tr> 
 						</thead> 
 						<tbody> 
 							<?php
-							$query  = "select a.city_name, b.place_name, b.count_visit, AVG(c.rating) as averageplace from city a join places b on a.city_ID=b.city_ID join feedback c on b.Iplace_ID=c.Iplace_ID order by averageplace" ;
+							$query  = "select a.city_name, b.place_name, b.count_visit, AVG(c.rating) as averageplace, count(c.feedback_ID) as count1 from city a join places b on a.city_ID=b.city_ID join feedback c on b.Iplace_ID=c.Iplace_ID order by averageplace" ;
 							// echo $query;
 							$result = mysqli_query($con, $query);
 							$sno    = 1;
@@ -168,6 +169,8 @@ $query  = "select * from admin where username='$aname'";
 							                echo "<td>" . $row['averageplace'] . "</td>";
 
 							                echo "<td>" . $row['count_visit'] . "</td>";
+
+							                echo "<td>" . $row['count1'] . "</td>";
 
 							                ?>
 
