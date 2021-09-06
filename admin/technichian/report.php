@@ -146,7 +146,7 @@ $query  = "select * from admin where username='$aname'";
 						</thead> 
 						<tbody> 
 							<?php
-							$query  = "SELECT * FROM view_report";
+							$query  = "select a.city_name, b.place_name, b.count_visit, AVG(c.rating) as averageplace from city a join places b on a.city_ID=b.city_ID join feedback c on b.Iplace_ID=c.Iplace_ID order by averageplace" ;
 							// echo $query;
 							$result = mysqli_query($con, $query);
 							$sno    = 1;
