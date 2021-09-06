@@ -147,7 +147,7 @@ $query  = "select * from admin where username='$aname'";
 						</thead> 
 						<tbody> 
 							<?php
-							$query  = "select a.city_name, b.place_name, b.count_visit, AVG(c.rating) as averageplace, count(c.feedback_ID) as count1 from city a join places b on a.city_ID=b.city_ID join feedback c on b.Iplace_ID=c.Iplace_ID group by city_ID order by averageplace" ;
+							$query  = "select a.city_name, b.place_name, b.count_visit, AVG(c.rating) as averageplace, count(c.feedback_ID) as count1 from city a join places b on a.city_ID=b.city_ID join feedback c on b.Iplace_ID=c.Iplace_ID group by place_name order by averageplace" ;
 							// echo $query;
 							$result = mysqli_query($con, $query);
 							$sno    = 1;
