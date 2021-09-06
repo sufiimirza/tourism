@@ -28,7 +28,7 @@ $query  = "select * from admin where username='$aname'";
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Form elements - Ninja Admin Template</title>
+	<title>Admin - Edit Profile</title>
 
 	<!-- Main Styles -->
 	<link rel="stylesheet" href="../assets/styles/style.min.css">
